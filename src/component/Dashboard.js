@@ -40,12 +40,10 @@ function Dashboard() {
 
     <div className='dashboardContainer'>
       <div className='dashboard__left'>
-        <ul>
-          <li>Dashboard</li>
-          <li>Account</li>
-          <li>Security</li>
-          <li>Settings</li>
-        </ul>
+          <p>Dashboard</p>
+          <p>Account</p>
+          <p>Security</p>
+          <p>Settings</p>
       </div>
       <div className="dashboard_right">
           <Row className='dashboard__balance'>
@@ -61,7 +59,7 @@ function Dashboard() {
             <Col md={8}>
               <EnergyGraph />
             </Col>
-            <Col md={4}>
+            <Col md={4} className='d-flex align-items-center justify-content-center'>
               <EnergyMixChart />
             </Col>
          </Row>
@@ -73,7 +71,7 @@ function Dashboard() {
             <News />
            </Col>
          </Row>
-         <Row>
+         <Row className='mb-5 mt-5'>
            <Col md={12}>
             <Transactions />
            </Col>

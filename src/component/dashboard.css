@@ -9,6 +9,9 @@
  max-width: 200px;
  width: 20%;
  background: linear-gradient(90deg, #008720 0%, #004A47 100%);
+ color: white;
+ padding-left: 30px;
+ padding-top: 30px;
 }
 .dashboard_right{
   width: 100%;
@@ -40,3 +43,17 @@
   width: 70%;
   padding: 10px 0;
 }
+
+
+.aboutContainer, .newsContainer, .transactionContainer{
+  background-color: rgb(1, 3, 29);
+  height: 100%;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 10px
+}
+.newsContainer__item{
+  display: flex;
+  column-gap: 15px;
+}
+

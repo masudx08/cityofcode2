@@ -4,13 +4,13 @@ import { Doughnut } from 'react-chartjs-2'
 
 function EnergyMixChart() {
   return (
-    <div className="dashboardTop__centerBottom">
+    <div className="dashboardTop__centerBottom text-center">
     <div className="energyMix__graphContainer">
       <div className="energyMix__graphTitle">
-        <h4>
+        <h6 className='title'>
           <span>Your energy mix</span>
-          <Coffee />
-        </h4>
+          <Coffee  style={{marginLeft:'10px'}}/>
+        </h6>
       </div>
       <div className="energyMixGraph">
         <Doughnut
