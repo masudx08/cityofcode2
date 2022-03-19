@@ -1,0 +1,29 @@
+
+.landingContainer{
+  background: #0D0D2B;
+  color: white;
+}
+
+ /* ============ Header  ============ */
+ 
+ /* ============ About  ============ */
+ .landing__about img{
+  width: 100%;
+}
+
+ /* ============ Faq  ============ */
+ /* ============ Contact  ============ */
+ .contact__form{
+   display: flex;
+ }
+.contact__form .left{
+  display: flex;
+  flex-direction: column;
+}
+.contact__form .right{
+  display: flex;
+  flex-direction: column;
+}
+
+ /* ============ Footer  ============ */
+
