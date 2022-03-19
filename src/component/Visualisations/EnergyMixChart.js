@@ -1,7 +1,7 @@
 import { Coffee } from '@mui/icons-material'
 import React from 'react'
 import { Doughnut } from 'react-chartjs-2'
-
+ 
 function EnergyMixChart() {
   return (
     <div className="dashboardTop__centerBottom text-center">
@@ -15,15 +15,23 @@ function EnergyMixChart() {
       <div className="energyMixGraph">
         <Doughnut
           data={{
-            labels: ["Red", "Blue", "Yellow"],
+            labels: [
+              "Today",
+              "This Week",
+              "This Month",
+              "This Year",
+              "All Time",
+            ],
             datasets: [
               {
                 label: "My First Dataset",
-                data: [300, 50, 100],
+                data: [52, 65, 54, 70, 76],
                 backgroundColor: [
                   "rgb(255, 99, 132)",
                   "rgb(54, 162, 235)",
                   "rgb(255, 205, 86)",
+                  "rgb(255, 99, 232)",
+                  "rgb(54, 162, 145)",
                 ],
                 hoverOffset: 4,
               },
