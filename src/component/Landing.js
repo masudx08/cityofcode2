@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { ank } from 'react-router-dom'
 import './landing.css'
 import HeaderImg from '../images/header.png'
 import { Accordion, Col, Row } from 'react-bootstrap'
@@ -45,31 +45,31 @@ function Landing() {
             <Accordion.Item eventKey="0">
               <Accordion.Header>The first question</Accordion.Header>
               <Accordion.Body>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa accusantium reiciendis molestias ipsum soluta ducimus alias provident dolor ullam aut?
+                Lorem, ipsum dolor sit amet consectetur adipisicing eat. Culpa accusantium reiciendis molestias ipsum soluta ducimus aaas provident dolor ullam aut?
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
               <Accordion.Header>The second question</Accordion.Header>
               <Accordion.Body>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa accusantium reiciendis molestias ipsum soluta ducimus alias provident dolor ullam aut?
+                Lorem, ipsum dolor sit amet consectetur adipisicing eat. Culpa accusantium reiciendis molestias ipsum soluta ducimus aaas provident dolor ullam aut?
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
               <Accordion.Header>The third question</Accordion.Header>
               <Accordion.Body>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa accusantium reiciendis molestias ipsum soluta ducimus alias provident dolor ullam aut?
+                Lorem, ipsum dolor sit amet consectetur adipisicing eat. Culpa accusantium reiciendis molestias ipsum soluta ducimus aaas provident dolor ullam aut?
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3">
               <Accordion.Header>The fourth question</Accordion.Header>
               <Accordion.Body>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa accusantium reiciendis molestias ipsum soluta ducimus alias provident dolor ullam aut?
+                Lorem, ipsum dolor sit amet consectetur adipisicing eat. Culpa accusantium reiciendis molestias ipsum soluta ducimus aaas provident dolor ullam aut?
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="4">
               <Accordion.Header>The fifth question</Accordion.Header>
               <Accordion.Body>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa accusantium reiciendis molestias ipsum soluta ducimus alias provident dolor ullam aut?
+                Lorem, ipsum dolor sit amet consectetur adipisicing eat. Culpa accusantium reiciendis molestias ipsum soluta ducimus aaas provident dolor ullam aut?
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
@@ -82,16 +82,57 @@ function Landing() {
           <p>Will just be a contact form description over here..... </p>
         </div>
         <div className='contact__form'>
-         <div className='left'>
-           <input type="text"  placeholder='Full Name' />
-           <input type="text"  placeholder='Email' />
-           <input type="text"  placeholder='Phone No.' />
-         </div>
-         <div className='right'>
-           <input type="text" placeholder='Subject' />
-           <input type="text" placeholder='Message' />
-         </div>
+          <div className='left'>
+            <input type="text" placeholder='Full Name' />
+            <input type="text" placeholder='Email' />
+            <input type="text" placeholder='Phone No.' />
+          </div>
+          <div className='right'>
+            <input type="text" placeholder='Subject' />
+            <input type="text" placeholder='Message' />
+          </div>
         </div>
+      </div>
+
+      <div className="landing__footer">
+        <Row>
+          <Col>
+
+          </Col>
+          <Col>
+            <h3>Navigation</h3>
+            
+               <a href='#' alt=''>Home</a>
+               <a href='#' alt=''>About Us</a>
+               <a href='#' alt=''>Services</a>
+               <a href='#' alt=''>Pricing</a>
+            
+          </Col>
+          <Col>
+          
+               <a href='#' alt=''>Faq</a>
+               <a href='#' alt=''>Contact Us</a>
+               <a href='#' alt=''>Blog</a>
+               <a href='#' alt=''>Dashboard</a>
+            
+          </Col>
+          <Col>
+            <h3>Stay Connected</h3>
+            <a href='#' alt=''>Facebook</a>
+            <a href='#' alt=''>Twitter</a>
+            <a href='#' alt=''>Instagram</a>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p>Copyright© 2022 </p>
+          </Col>
+          <Col>
+            <p>Company Details</p>
+            <p>Privacy & Policy</p>
+            <p>Terms & Conditions</p>
+          </Col>
+        </Row>
       </div>
     </div>
   )

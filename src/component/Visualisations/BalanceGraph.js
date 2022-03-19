@@ -7,9 +7,9 @@ function BalanceGraph() {
     <div className="balanceGraph__container">
 
     <div className="balanceGraph__title">
-      <h4>
-        <span>Your Balance</span>
-        <Balance/>
+      <h4 className='title'>
+        <span >Your Balance</span>
+        <Balance style={{marginLeft:'10px' }}/>
       </h4>
       <h3>$ 1093.12</h3>
     </div>

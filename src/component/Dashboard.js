@@ -52,7 +52,7 @@ function Dashboard() {
             <Col md={8}>
               <BalanceGraph />
             </Col>
-            <Col md={4}>
+            <Col md={4} className='dashboard__button'>
              <button>Buy</button>
              <button>Sell</button>
             </Col>

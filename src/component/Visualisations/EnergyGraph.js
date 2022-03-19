@@ -6,9 +6,9 @@ function EnergyGraph() {
   return (
     <div className="balanceGraph__container">
     <div className="balanceGraph__title">
-      <h4>
+      <h4 className='title'>
         <span>Energy Price</span>
-        <RemoveRedEye />
+        <RemoveRedEye style={{marginLeft:'10px' }} />
       </h4>
       <h3>$ 503.99</h3>
     </div>
